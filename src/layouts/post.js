@@ -39,7 +39,6 @@ const StyledImage = styled(Image)`
 
 const PreviewInfoLabel = styled.div`
   position: absolute;
-  width: max-content;
   min-height: 4rem;
   background-color: ${({ theme }) => theme.black};
   color: ${({ theme }) => theme.white};

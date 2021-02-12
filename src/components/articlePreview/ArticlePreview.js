@@ -24,7 +24,6 @@ const PreviewInfoLabel = styled.div`
   position: absolute;
   left: 0;
   bottom: 35px;
-  width: max-content;
   min-height: 4rem;
   background-color: ${({ theme }) => theme.black};
   color: ${({ theme }) => theme.white};
