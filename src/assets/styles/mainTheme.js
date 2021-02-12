@@ -3,7 +3,7 @@ const theme = {
   black: '#000000',
   light: 400,
   bold: 600,
-  fonSize: {
+  fontSize: {
     xxl: '8rem',
     xl: '4rem',
     l: '3rem',
