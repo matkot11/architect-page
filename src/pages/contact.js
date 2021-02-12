@@ -46,7 +46,8 @@ const StyledTextarea = styled.textarea`
   font-family: 'Montserrat', sans-serif;
   font-size: ${({ theme }) => theme.fontSize.m};
   border: 5px solid #000000;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 
   :focus {
     outline: none;

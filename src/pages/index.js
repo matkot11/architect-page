@@ -42,7 +42,7 @@ const IndexPage = ({ data }) => (
     <StyledTextWrapper>
       <StyledTitle>Emily Bordough </StyledTitle>
       <StyledParagraph>
-        I am Architect with Master degree and with 5 years of experience in
+        I am Architect with Master degree and 5 years of experience in
         interior design.
       </StyledParagraph>
     </StyledTextWrapper>
