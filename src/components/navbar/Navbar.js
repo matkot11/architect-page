@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const StyledWrapper = styled.nav`
+  position: fixed;
   display: flex;
   align-items: center;
 
