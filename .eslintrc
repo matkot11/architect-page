@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint", // uses babel-eslint transforms
+  "settings": {
+    "react": {
+      "version": "detect" // detect react version
+    }
+  },
+  "env": {
+    "node": true // defines things like process.env when generating through node
+  },
+  "extends": [
+    "eslint:recommended", // use recommended configs
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+"rules": {
+  "react/prop-types": 0,
+  "quotes": 0,
+  "no-useless-escape": 0,
+  "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+}
+}
