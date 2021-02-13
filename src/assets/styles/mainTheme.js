@@ -9,6 +9,13 @@ const theme = {
     l: '3rem',
     m: '2rem',
   },
+  size: {
+    xxl: '60rem',
+    xl: '53.125rem',
+    l: '37.5rem',
+    m: '31.25rem',
+    s: '21.875rem',
+  },
 };
 
 export default theme;

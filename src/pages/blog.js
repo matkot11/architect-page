@@ -9,14 +9,23 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: space-evenly;
-  width: 80%;
   margin: auto;
+  width: 80%;
   margin-top: 5rem;
 
   a {
     :nth-child(2n) {
       align-self: flex-end;
+      margin: 1rem 0;
+
+      @media only screen and (max-width: ${({ theme }) => theme.size.xl}) {
+        align-self: center;
+      }
     }
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.xl}) {
+    align-items: center;
   }
 `;
 

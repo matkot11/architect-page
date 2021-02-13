@@ -11,6 +11,16 @@ const PreviewWrapper = styled(Link)`
   background-image: url(${({ background }) => background});
   background-size: cover;
   border-radius: 5px;
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.m}) {
+    width: 40rem;
+    height: 20rem;
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.s}) {
+    width: 30rem;
+    height: 15rem;
+  }
 `;
 
 const StyledImage = styled(Image)`

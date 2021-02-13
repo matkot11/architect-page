@@ -35,6 +35,11 @@ const StyledImage = styled(Image)`
   width: calc(100vw - 12rem);
   height: 50vh;
   border-radius: 5px;
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.s}) {
+    height: 20vh;
+    width: 95vw;
+  }
 `;
 
 const PreviewInfoLabel = styled.div`

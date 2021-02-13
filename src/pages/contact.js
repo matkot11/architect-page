@@ -6,8 +6,13 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 12rem);
+  min-height: calc(100vh - 12rem);
   width: calc(100vw - 12rem);
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.m}) {
+    width: auto;
+    min-height: calc(100vh - 6rem);
+  }
 `;
 
 const StyledTitle = styled.h1`
@@ -38,6 +43,10 @@ const StyledInput = styled.input`
   :focus {
     outline: none;
   }
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.m}) {
+    min-width: 30rem;
+  }
 `;
 
 const StyledTextarea = styled.textarea`
@@ -51,6 +60,10 @@ const StyledTextarea = styled.textarea`
 
   :focus {
     outline: none;
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.size.m}) {
+    min-width: 30rem;
   }
 `;
 
