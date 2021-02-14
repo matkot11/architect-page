@@ -7,7 +7,7 @@ This is a portfolio page for imaginary architect. Page is made in Gatsby. Articl
 ### Technologies
 * Gatsby
 * DatoCMS
-* Graphql
+* GraphQL
 * Styled Components
 
 ## To run website type: 
