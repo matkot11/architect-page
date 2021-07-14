@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 
 export const PreviewWrapper = styled(Link)`
+  margin-top: 5rem;
   display: block;
   position: relative;
   width: 50rem;

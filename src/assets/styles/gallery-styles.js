@@ -2,17 +2,18 @@ import styled, { css } from 'styled-components';
 import Image from 'gatsby-image';
 
 export const StyledWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-gap: 1rem;
-  height: calc(100vh - 10rem);
+  /* display: grid; */
+  /* grid-template-columns: repeat(10, 1fr); */
+  /* grid-template-rows: repeat(6, 1fr); */
+  /* grid-gap: 1rem; */
+  /* height: calc(100vh - 10rem); */
 `;
 
 export const StyledImage = styled(Image)`
-  border-radius: 5px;
+  margin-top: 2rem;
+  /* border-radius: 5px; */
 
-  ${({ name }) => {
+  /* ${({ name }) => {
     switch (name) {
       case 'chair':
         return css`
@@ -49,13 +50,5 @@ export const StyledImage = styled(Image)`
       default:
         return null;
     }
-  }}
-`;
-
-export const StyledTitle = styled.h2`
-  grid-area: 1 / 1 / 2 / -1;
-  justify-self: center;
-  align-self: center;
-  margin-top: 1rem;
-  font-size: ${({ theme }) => theme.fontSize.xl};
+  }} */
 `;

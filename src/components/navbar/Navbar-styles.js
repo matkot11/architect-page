@@ -15,12 +15,11 @@ export const StyledInnerWrapper = styled.nav`
 `;
 
 export const StyledTitle = styled.h1`
-  /* font-size: ${({ theme }) => theme.fontSize.m}; */
-  font-size: 1.3rem;
-  /* margin-right: 2rem; */
+  font-size: ${({ theme }) => theme.fontSize.l};
+  margin-bottom: 1rem;
 `;
 
 export const StyledLink = styled.h2`
   font-size: ${({ theme }) => theme.fontSize.s};
-  margin: 0 0.5rem;
+  margin: 0 1rem;
 `;

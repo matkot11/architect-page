@@ -1,14 +1,9 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import {
-  StyledImage,
-  StyledTitle,
-  StyledWrapper,
-} from '../assets/styles/gallery-styles';
+import { StyledImage, StyledWrapper } from '../assets/styles/gallery-styles';
 
 const Gallery = ({ data }) => (
   <StyledWrapper>
-    <StyledTitle>Gallery</StyledTitle>
     {data.allFile.nodes.map((item) => (
       <StyledImage
         fluid={item.childImageSharp.fluid}

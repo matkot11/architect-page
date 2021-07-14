@@ -5,13 +5,11 @@ export const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 12rem);
-  width: calc(100vw - 12rem);
 `;
 
 export const StyledTitle = styled.h1`
-  margin-bottom: 2rem;
-  font-size: ${({ theme }) => theme.fontSize.xl};
+  margin: 3rem 0 1rem 0;
+  font-size: ${({ theme }) => theme.fontSize.l};
 `;
 
 export const StyledForm = styled.form`
@@ -20,17 +18,16 @@ export const StyledForm = styled.form`
   align-items: center;
 
   & > * {
-    margin: 2rem 0%;
+    margin: 2rem 0;
   }
 `;
 
 export const StyledInput = styled.input`
-  min-width: 56rem;
   padding: 1rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: ${({ theme }) => theme.fontSize.m};
+  font-size: ${({ theme }) => theme.fontSize.s};
   border: none;
-  border-bottom: 5px solid #000000;
+  border-bottom: 2px solid #000000;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 
@@ -41,11 +38,10 @@ export const StyledInput = styled.input`
 
 export const StyledTextarea = styled.textarea`
   padding: 1rem;
-  min-width: 56rem;
-  min-height: 25rem;
+  min-height: 15rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: ${({ theme }) => theme.fontSize.m};
-  border: 5px solid #000000;
+  font-size: ${({ theme }) => theme.fontSize.s};
+  border: 2px solid #000000;
   border-radius: 5px;
 
   :focus {
@@ -60,7 +56,7 @@ export const StyledButton = styled.button`
   font-family: 'Montserrat', sans-serif;
   font-size: ${({ theme }) => theme.fontSize.m};
   font-weight: ${({ theme }) => theme.bold};
-  border: 5px solid #000000;
+  border: 2px solid #000000;
   border-radius: 5px;
   cursor: pointer;
 
@@ -71,5 +67,6 @@ export const StyledButton = styled.button`
 
 export const StyledMessage = styled.h1`
   margin: 2rem 0;
-  font-size: ${({ theme }) => theme.fontSize.zl};
+  text-align: center;
+  font-size: 2.5rem;
 `;
