@@ -3,7 +3,7 @@ import Image from 'gatsby-image';
 
 export const StyledWrapper = styled.div`
   display: flex;
-  min-height: calc(100vh - 6.9rem);
+  height: calc(100vh - 6.9rem);
 `;
 
 export const StyledTextWrapper = styled.div`

@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 import Image from 'gatsby-image';
 
 export const StyledWrapper = styled.div`
+margin-bottom: 3rem;
   /* display: grid; */
   /* grid-template-columns: repeat(10, 1fr); */
   /* grid-template-rows: repeat(6, 1fr); */

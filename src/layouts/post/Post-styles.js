@@ -16,7 +16,7 @@ export const StyledInnerWrapper = styled.div`
 `;
 
 export const StyledImage = styled(Image)`
-  width: calc(100vw - 12rem);
+  width: 90vw;
   height: 50vh;
   border-radius: 5px;
 `;
@@ -31,12 +31,11 @@ export const PreviewInfoLabel = styled.div`
   margin: 0 auto;
 
   h2 {
-    font-size: ${({ theme }) => theme.fontSize.xl};
+    font-size: ${({ theme }) => theme.fontSize.l};
   }
 `;
 
 export const StyledParagraph = styled.p`
-  margin-top: 3rem;
-  width: 80%;
-  font-size: ${({ theme }) => theme.fontSize.m};
+  margin: 3rem 1rem 3rem 1rem;
+  font-size: ${({ theme }) => theme.fontSize.s};
 `;
