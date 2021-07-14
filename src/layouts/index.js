@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from '../assets/styles/globalStyle';
 import theme from '../assets/styles/mainTheme';
-import Navbar from '../components/navbar/Navbar';
+import Navbar from '../components/navbar/Navbar-component';
 
 const MainLayout = ({ children }) => (
   <>

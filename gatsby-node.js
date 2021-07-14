@@ -11,7 +11,7 @@ const slugify = require('slugify');
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  const blogPostTemplate = path.resolve(`src/layouts/post.js`);
+  const blogPostTemplate = path.resolve(`src/layouts/post/Post-layout.js`);
 
   const result = await graphql(
     `

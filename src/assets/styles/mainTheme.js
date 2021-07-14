@@ -8,6 +8,7 @@ const theme = {
     xl: '4rem',
     l: '3rem',
     m: '2rem',
+    s: '1rem',
   },
   size: {
     xxl: '60rem',

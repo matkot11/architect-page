@@ -1,33 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import styled from 'styled-components';
 import slugify from 'slugify';
-import ArticlePreview from '../components/articlePreview/ArticlePreview';
-
-const StyledWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: space-evenly;
-  margin: auto;
-  width: 80%;
-  margin-top: 5rem;
-
-  a {
-    :nth-child(2n) {
-      align-self: flex-end;
-      margin: 1rem 0;
-
-      @media only screen and (max-width: ${({ theme }) => theme.size.xl}) {
-        align-self: center;
-      }
-    }
-  }
-
-  @media only screen and (max-width: ${({ theme }) => theme.size.xl}) {
-    align-items: center;
-  }
-`;
+import ArticlePreview from '../components/articlePreview/ArticlePreview-component';
+import StyledWrapper from './blog-styles';
 
 const Blog = ({ data }) => (
   <StyledWrapper>
