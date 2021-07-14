@@ -7,7 +7,7 @@ import {
   StyledTextarea,
   StyledTitle,
   StyledWrapper,
-} from './contact-styles';
+} from '../assets/styles/contact-styles';
 
 const Contact = () => {
   const [send, isSend] = useState(false);

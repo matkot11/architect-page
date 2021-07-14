@@ -6,7 +6,7 @@ import {
   StyledTextWrapper,
   StyledTitle,
   StyledWrapper,
-} from './index-styles';
+} from '../assets/styles/index-styles';
 
 const IndexPage = ({ data }) => (
   <StyledWrapper>

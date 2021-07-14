@@ -1,6 +1,10 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import { StyledImage, StyledTitle, StyledWrapper } from './gallery-styles';
+import {
+  StyledImage,
+  StyledTitle,
+  StyledWrapper,
+} from '../assets/styles/gallery-styles';
 
 const Gallery = ({ data }) => (
   <StyledWrapper>

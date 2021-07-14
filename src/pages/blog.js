@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import slugify from 'slugify';
 import ArticlePreview from '../components/articlePreview/ArticlePreview-component';
-import StyledWrapper from './blog-styles';
+import StyledWrapper from '../assets/styles/blog-styles';
 
 const Blog = ({ data }) => (
   <StyledWrapper>
