@@ -24,8 +24,8 @@ export const StyledImage = styled(Image)`
   }
 
   @media only screen and (min-width: ${({ theme }) => theme.size.m}) {
-    height: 30rem;
-    width: 30vw;
+    height: 40rem;
+    width: 45vw;
   }
 `;
 
