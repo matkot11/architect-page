@@ -52,6 +52,11 @@ export const StyledParagraph = styled.p`
   @media only screen and (min-width: ${({ theme }) => theme.size.m}) {
     width: 55%;
   }
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.xl}) {
+    margin-top: 2rem;
+    width: 40%;
+  }
 `;
 
 export const StyledImage = styled(Image)`
