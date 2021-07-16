@@ -17,8 +17,16 @@ export const StyledInnerWrapper = styled.div`
 
 export const StyledImage = styled(Image)`
   width: 90vw;
-  height: 50vh;
   border-radius: 5px;
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    width: 80vw;
+  }
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.m}) {
+    height: 30rem;
+    width: 30vw;
+  }
 `;
 
 export const PreviewInfoLabel = styled.div`
@@ -31,11 +39,25 @@ export const PreviewInfoLabel = styled.div`
   margin: 0 auto;
 
   h2 {
-    font-size: ${({ theme }) => theme.fontSize.l};
+    font-size: 2.5rem;
+
+    @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+      font-size: ${({ theme }) => theme.fontSize.xl};
+    }
   }
 `;
 
 export const StyledParagraph = styled.p`
   margin: 3rem 1rem 3rem 1rem;
   font-size: ${({ theme }) => theme.fontSize.s};
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    margin: 5rem 0 3rem 0;
+    width: 90vw;
+    font-size: 2.2rem;
+  }
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.m}) {
+    width: 50vw;
+  }
 `;

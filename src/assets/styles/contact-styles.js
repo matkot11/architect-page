@@ -10,6 +10,10 @@ export const StyledWrapper = styled.div`
 export const StyledTitle = styled.h1`
   margin: 3rem 0 1rem 0;
   font-size: ${({ theme }) => theme.fontSize.l};
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    font-size: ${({ theme }) => theme.fontSize.xl};
+  }
 `;
 
 export const StyledForm = styled.form`
@@ -34,6 +38,10 @@ export const StyledInput = styled.input`
   :focus {
     outline: none;
   }
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    width: 30rem;
+  }
 `;
 
 export const StyledTextarea = styled.textarea`
@@ -46,6 +54,10 @@ export const StyledTextarea = styled.textarea`
 
   :focus {
     outline: none;
+  }
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    width: 30rem;
   }
 `;
 
@@ -62,6 +74,10 @@ export const StyledButton = styled.button`
 
   :focus {
     outline: none;
+  }
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    font-size: 2.5rem;
   }
 `;
 

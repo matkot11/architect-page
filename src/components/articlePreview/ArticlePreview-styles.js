@@ -6,11 +6,15 @@ export const PreviewWrapper = styled(Link)`
   margin-top: 5rem;
   display: block;
   position: relative;
-  /* width: 50rem; */
-  /* height: 34rem; */
+
   background-image: url(${({ background }) => background});
   background-size: cover;
   border-radius: 5px;
+
+  @media only screen and (min-width: ${({ theme }) => theme.size.s}) {
+    width: 50rem;
+    height: 34rem;
+  }
 `;
 
 export const StyledImage = styled(Image)`
