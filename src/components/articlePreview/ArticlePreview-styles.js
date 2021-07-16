@@ -6,8 +6,8 @@ export const PreviewWrapper = styled(Link)`
   margin-top: 5rem;
   display: block;
   position: relative;
-  width: 50rem;
-  height: 34rem;
+  /* width: 50rem; */
+  /* height: 34rem; */
   background-image: url(${({ background }) => background});
   background-size: cover;
   border-radius: 5px;

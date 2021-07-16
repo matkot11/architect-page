@@ -6,7 +6,7 @@ const StyledWrapper = styled.div`
   /* justify-content: center; */
   /* align-items: space-evenly; */
   /* margin: auto; */
-  /* width: 80%; */
+  /* width: 80vw; */
 
   /* a {
     :nth-child(2n) {
